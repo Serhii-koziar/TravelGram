@@ -770,6 +770,7 @@ hr {
   background-color: #ffffff; }
 
 .content__map {
+  padding-left: 10px;
   padding-bottom: 29px; }
   .content__map iframe {
     max-width: 560px;
@@ -2093,7 +2094,15 @@ hr {
     -ms-flex-pack: center;
     justify-content: center; }
   .slider__item-header {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .content__map iframe {
+    max-width: 350px; } }
+
+@media screen and (max-width: 450px) {
+  .content__map iframe {
+    max-width: 300px; }
+  .content__map {
+    padding: 0; } }
 
 @media screen and (max-width: 408px) {
   .middle-item__hover-effect {
