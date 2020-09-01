@@ -419,7 +419,8 @@ input {
 
 body, html {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 .header__input-wrap {
   position: relative;
@@ -2107,6 +2108,11 @@ hr {
   .middle-item__hover-effect {
     width: 101%;
     height: 49%; } }
+
+@media screen and (max-width: 425px) {
+  .third__section-img {
+    max-width: 300px;
+    width: 100%; } }
 
 @media screen and (max-width: 400px) {
   .about__item-text {
